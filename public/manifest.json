@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Amazon Prime Price Checker",
-  "description": "Google extension that alerts you if the price for the product you're browsing is different for non-prime users",
+  "description": "Google Chrome extension that alerts you if the price for the product you're browsing is different for non-prime users",
   "version": "1.0",
   "action": {
     "default_icon": {
-      "16": "images/icon.png",
-      "24": "images/icon.png",
-      "32": "images/icon.png"
+      "16": "images/16.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
     }
   },
   "background": {

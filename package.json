@@ -5,7 +5,11 @@
   "main": "main.js",
   "scripts": {
     "test": "npx mocha '**/*.tests.js'",
-    "build": "npx webpack --config webpack/webpack.config.js"
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "npx webpack --config webpack/webpack.config.js",
+    "prepackage": "npm run build",
+    "package": "rm extension.zip && zip -r extension.zip dist"
   },
   "author": "Stanislaw Wozniak",
   "license": "Apache-2.0",

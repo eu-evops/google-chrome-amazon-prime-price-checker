@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: ".", to: ".", context: "public" }]
+      patterns: [{ from: ".", to: ".", context: "public", filter: (resourcePath) => !resourcePath.endsWith(".pxd") }],
     }),
   ],
 };

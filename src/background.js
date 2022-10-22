@@ -27,7 +27,7 @@ const checkAmazonPrimePrice = async (tab, primePriceText) => {
 
       chrome.notifications.create(notificationId, {
         type: 'basic',
-        iconUrl: 'images/icon.png',
+        iconUrl: 'images/128.png',
         title: 'Non-Prime Price Cheaper',
         message: `Buy for ${cf.format(price)}`,
         contextMessage: `Click to save ${cf.format(difference * -1)}`,
