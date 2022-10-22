@@ -1,0 +1,20 @@
+{
+  "name": "google-chrome-amazon-prime-price-checker",
+  "version": "1.0.0",
+  "description": "Google Chrome extension that will alert you if the price of the product you're currently browsing is different for non-prime members",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx mocha '**/*.tests.js'",
+    "build": "npx webpack --config webpack/webpack.config.js"
+  },
+  "author": "Stanislaw Wozniak",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chrome-types": "^0.1.140",
+    "copy-webpack-plugin": "^11.0.0",
+    "expect": "^29.2.1",
+    "mocha": "^10.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
