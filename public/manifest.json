@@ -14,9 +14,7 @@
     "service_worker": "background.js"
   },
   "permissions": [
-    "activeTab",
     "notifications",
-    "nativeMessaging",
     "tabs"
   ],
   "host_permissions": [
